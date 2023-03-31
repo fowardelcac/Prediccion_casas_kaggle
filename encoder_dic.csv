@@ -1,0 +1,191 @@
+clave,valor
+MSSubClass,"        Id  MSSubClass_20  MSSubClass_30  MSSubClass_40  MSSubClass_45  \
+0        1              0              0              0              0   
+1        2              1              0              0              0   
+2        3              0              0              0              0   
+3        4              0              0              0              0   
+4        5              0              0              0              0   
+...    ...            ...            ...            ...            ...   
+1455  1456              0              0              0              0   
+1456  1457              1              0              0              0   
+1457  1458              0              0              0              0   
+1458  1459              1              0              0              0   
+1459  1460              1              0              0              0   
+
+      MSSubClass_50  MSSubClass_60  MSSubClass_70  MSSubClass_75  \
+0                 0              1              0              0   
+1                 0              0              0              0   
+2                 0              1              0              0   
+3                 0              0              1              0   
+4                 0              1              0              0   
+...             ...            ...            ...            ...   
+1455              0              1              0              0   
+1456              0              0              0              0   
+1457              0              0              1              0   
+1458              0              0              0              0   
+1459              0              0              0              0   
+
+      MSSubClass_80  MSSubClass_85  MSSubClass_90  MSSubClass_120  \
+0                 0              0              0               0   
+1                 0              0              0               0   
+2                 0              0              0               0   
+3                 0              0              0               0   
+4                 0              0              0               0   
+...             ...            ...            ...             ...   
+1455              0              0              0               0   
+1456              0              0              0               0   
+1457              0              0              0               0   
+1458              0              0              0               0   
+1459              0              0              0               0   
+
+      MSSubClass_160  MSSubClass_180  MSSubClass_190  
+0                  0               0               0  
+1                  0               0               0  
+2                  0               0               0  
+3                  0               0               0  
+4                  0               0               0  
+...              ...             ...             ...  
+1455               0               0               0  
+1456               0               0               0  
+1457               0               0               0  
+1458               0               0               0  
+1459               0               0               0  
+
+[1460 rows x 16 columns]"
+MSZoning,"      MSZoning_C (all)  MSZoning_FV  MSZoning_RH  MSZoning_RL  MSZoning_RM
+0                    0            0            0            1            0
+1                    0            0            0            1            0
+2                    0            0            0            1            0
+3                    0            0            0            1            0
+4                    0            0            0            1            0
+...                ...          ...          ...          ...          ...
+1455                 0            0            0            1            0
+1456                 0            0            0            1            0
+1457                 0            0            0            1            0
+1458                 0            0            0            1            0
+1459                 0            0            0            1            0
+
+[1460 rows x 5 columns]"
+LotShape,"      LotShape_IR1  LotShape_IR2  LotShape_IR3  LotShape_Reg
+0                0             0             0             1
+1                0             0             0             1
+2                1             0             0             0
+3                1             0             0             0
+4                1             0             0             0
+...            ...           ...           ...           ...
+1455             0             0             0             1
+1456             0             0             0             1
+1457             0             0             0             1
+1458             0             0             0             1
+1459             0             0             0             1
+
+[1460 rows x 4 columns]"
+LandContour,"      LandContour_Bnk  LandContour_HLS  LandContour_Low  LandContour_Lvl
+0                   0                0                0                1
+1                   0                0                0                1
+2                   0                0                0                1
+3                   0                0                0                1
+4                   0                0                0                1
+...               ...              ...              ...              ...
+1455                0                0                0                1
+1456                0                0                0                1
+1457                0                0                0                1
+1458                0                0                0                1
+1459                0                0                0                1
+
+[1460 rows x 4 columns]"
+Neighborhood,"      Neighborhood_SawyerW  Neighborhood_Somerst  Neighborhood_StoneBr  \
+0                        0                     0                     0   
+1                        0                     0                     0   
+2                        0                     0                     0   
+3                        0                     0                     0   
+4                        0                     0                     0   
+...                    ...                   ...                   ...   
+1455                     0                     0                     0   
+1456                     0                     0                     0   
+1457                     0                     0                     0   
+1458                     0                     0                     0   
+1459                     0                     0                     0   
+
+      Neighborhood_Timber  Neighborhood_Veenker    Id  
+0                       0                     0     1  
+1                       0                     1     2  
+2                       0                     0     3  
+3                       0                     0     4  
+4                       0                     0     5  
+...                   ...                   ...   ...  
+1455                    0                     0  1456  
+1456                    0                     0  1457  
+1457                    0                     0  1458  
+1458                    0                     0  1459  
+1459                    0                     0  1460  
+
+[1460 rows x 6 columns]"
+ExterCond,"      ExterCond_Ex  ExterCond_Fa  ExterCond_Gd  ExterCond_Po  ExterCond_TA  \
+0                0             0             0             0             1   
+1                0             0             0             0             1   
+2                0             0             0             0             1   
+3                0             0             0             0             1   
+4                0             0             0             0             1   
+...            ...           ...           ...           ...           ...   
+1455             0             0             0             0             1   
+1456             0             0             0             0             1   
+1457             0             0             1             0             0   
+1458             0             0             0             0             1   
+1459             0             0             0             0             1   
+
+        Id  
+0        1  
+1        2  
+2        3  
+3        4  
+4        5  
+...    ...  
+1455  1456  
+1456  1457  
+1457  1458  
+1458  1459  
+1459  1460  
+
+[1460 rows x 6 columns]"
+ExterQual,"      Exterior  ExterQual_Ex  ExterQual_Fa  ExterQual_Gd  ExterQual_TA    Id
+0            0             0             0             1             0     1
+1            0             0             0             0             1     2
+2            0             0             0             1             0     3
+3            1             0             0             0             1     4
+4            0             0             0             1             0     5
+...        ...           ...           ...           ...           ...   ...
+1455         0             0             0             0             1  1456
+1456         0             0             0             0             1  1457
+1457         1             1             0             0             0  1458
+1458         0             0             0             0             1  1459
+1459         0             0             0             1             0  1460
+
+[1460 rows x 6 columns]"
+Foundation,"      Foundation_CBlock  Foundation_PConc  Foundation_Slab  Foundation_Stone  \
+0                     0                 1                0                 0   
+1                     1                 0                0                 0   
+2                     0                 1                0                 0   
+3                     0                 0                0                 0   
+4                     0                 1                0                 0   
+...                 ...               ...              ...               ...   
+1455                  0                 1                0                 0   
+1456                  1                 0                0                 0   
+1457                  0                 0                0                 1   
+1458                  1                 0                0                 0   
+1459                  1                 0                0                 0   
+
+      Foundation_Wood    Id  
+0                   0     1  
+1                   0     2  
+2                   0     3  
+3                   0     4  
+4                   0     5  
+...               ...   ...  
+1455                0  1456  
+1456                0  1457  
+1457                0  1458  
+1458                0  1459  
+1459                0  1460  
+
+[1460 rows x 6 columns]"
